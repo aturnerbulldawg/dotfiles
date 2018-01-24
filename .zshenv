@@ -1,1 +1,0 @@
-/Users/amt3665/.zprezto/runcoms/zshenv
