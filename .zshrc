@@ -17,7 +17,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/amt3665/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 export WORKON_HOME=~/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -112,8 +112,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/amt3665/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/amt3665/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '~/google-cloud-sdk/path.zsh.inc' ]; then source '~/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/amt3665/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/amt3665/google-cloud-sdk/completion.zsh.inc'; fi
-alias config='/usr/bin/git --git-dir=/Users/amt3665/.cfg/ --work-tree=/Users/amt3665'
+if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then source '~/google-cloud-sdk/completion.zsh.inc'; fi
+alias config='/usr/bin/git --git-dir=~/.cfg/ --work-tree=~/'
